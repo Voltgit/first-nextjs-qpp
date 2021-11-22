@@ -1,0 +1,15 @@
+$link-font-size: 25px;
+
+.link {
+	font-size: $link-font-size;
+	transition: 0.2s;
+}
+
+.link::before {
+	content: "> ";
+}
+
+.link:hover {
+	margin-left: 5px;
+	color: red;
+}
